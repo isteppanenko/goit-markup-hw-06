@@ -447,8 +447,27 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="footer-media-text">Subscribe</p>
+          <form action="" class="footer-forma">
+            <input type="email" />
+            <button class="btm-subscribe" type="button">
+              Subscribe
+              <svg class="footer-subsribe-icon" width="24" height="20">
+                <use href="./images/icons.svg#footer-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <!-- /**
+  |============================
+  | MODAL-WINDOWNDOW
+  |============================
+*/ -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" data-modal-close class="close-icon">
@@ -456,6 +475,52 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
+        <form class="form-modal-window">
+          <p class="form-modal-title">
+            Leave your contacts and we will call you back
+          </p>
+
+          <label for="user-name"
+            >name
+            <svg class="forma-icon" width="24" height="24">
+              <use href="./images/icons.svg#user-name"></use>
+            </svg>
+            <input name="user-name" type="text" id="user-name" />
+          </label>
+
+          <label for="user-phone"
+            >phone
+            <svg class="forma-icon" width="24" height="24">
+              <use href="./images/icons.svg#user-phone"></use>
+            </svg>
+            <input name="user-phone" type="tel" id="user-phone"
+          /></label>
+
+          <label for="user-email"
+            >email
+            <svg class="forma-icon" width="24" height="24">
+              <use href="./images/icons.svg#user-email"></use>
+            </svg>
+            <input name="user-email" type="email" id="user-email"
+          /></label>
+
+          <label for="comment"
+            >comment
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <label for="checkbox"
+            ><input type="checkbox" name="checkbox" id="checkbox" /> I accept
+            the terms and conditions of the Privacy Policy
+          </label>
+
+          <button type="button">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

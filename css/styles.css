@@ -715,6 +715,25 @@ img {
   background: var(--icon-bg-footer-hover);
 }
 
+/* SUBSCRIBE  */
+.subscribe {
+  display: block;
+  margin-left: 80px;
+}
+.subscribe p {
+  margin-bottom: 16px;
+}
+.footer-forma {
+  display: flex;
+  gap: 24px;
+}
+.btm-subscribe {
+  display: block;
+  padding: 8px 24px;
+}
+.footer-subsribe-icon {
+}
+
 /**
   |============================
   | Portfolio page
@@ -836,4 +855,22 @@ img {
 .item-link:hover .item-shadow {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/**
+  |============================
+  | FORNA - MODAL - WINDOW
+  |============================
+*/
+.form-modal-window {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+
+  padding: 72px 24px;
+}
+
+.forma-icon {
 }
