@@ -761,12 +761,6 @@ img {
   color: #ffffff;
 }
 
-.sub-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
 .btm-subscribe {
   padding: 8px 24px;
 
@@ -786,12 +780,14 @@ img {
 }
 
 .btm-subcribe-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
-  align-items: center;
-  text-align: center;
 
   color: var(--primary-bg-color);
 }
